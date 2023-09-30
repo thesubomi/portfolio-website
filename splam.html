@@ -1,341 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/img/favicon.ico" rel="shortcut icon" />
+    <title>Subomi — Home</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="/img/favicon.ico" rel="shortcut icon">
-    <title>Subomi - SPLAM App</title>
-</head>
-
-<body>
+  <body>
     <!-- Header Section -->
     <header>
-        <!-- Nav -->
-        <div>
-            <a href="/index.html"><img src="img/subomi_logo.svg" alt="subomi's logomark"></a>
-            <nav>
-                <ul>
-                    <li><a href="./work.html">Work</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <!-- Nav -->
+      <div class="container">
+        <a href="/index.html"
+          ><img class="logo" src="img/subomi_logo.svg" alt="subomi's logomark"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="./work.html">Work</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero section -->
     <main>
 
         <section>
-            <h2>SPLAM - Speak like a local</h2>
-            <picture>
-                <source srcset="img/Project_Overview/1x/Project_SPLAM_1x.jpg" media="(max-width:767px)">
-                <img src="img/Project_Overview/2x/Project_SPLAM_2x.jpg" alt="SPLAM Cover image">
-            </picture>
-            <h3>Why?</h3>
-            <p>
-                SPLAM steps up to address the initial challenge that foreigners, particularly expats, encounter when
-                relocating to a new country—the language barrier. Recognizing that Polish is regarded as one of the most
-                challenging languages to learn, SPLAM offers an accelerated approach to help individuals quickly become
-                proficient in speaking Polish.
-            </p>
-
-            <h3>What?</h3>
-            <p>
-                Design a mobile app that helps foreigners/expats to learn Polish language by adding a new word to their
-                vocabulary everyday.
-            </p>
-
-            <h3>How? — The Process</h3>
-            <p>
-                Kicking off the process with competitive analysis will present the opportunity to see what similar
-                solutions are currently available on the market, what they are doing correctly and how it can be
-                improved on.
-            </p>
-            <p>
-                Next up, getting to know the target audience, the user. Setting up user interviews at this stage will
-                help to understand the need for the product on the market, what gaps are currently existing and how
-                SPLAM can fill up those gaps.
-            </p>
-            <p>
-                At this point, a <b>proto-persona</b> will emerge from the responses of the users from the interviews.
-                This persona will encapsulate all the needs, goals and motivation of the ideal target audience.
-            </p>
-            <p>
-                Let’s call the proto-persona, <b>Wanjiku</b>.
-            </p>
-            <p>
-                Based on her goals and motivations, the <b>information architecture</b> comes into play to structure the
-                flow in which Wanjiku will complete several tasks using SPLAM and eventually arrive at her desired
-                goals.
-            </p>
-            <p>
-                With the information architecture established, low fidelity <b>wireframes</b> will be fleshed out to
-                create the first set of <b>prototypes</b> for users to <b>test</b>, starting with Wanjiku.
-            </p>
-        </section>
-
-        <section>
-            <h2>Competitor Analysis</h2>
-            <div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/Competitor_Analysis_Fig1_2_1x.jpg"
-                            media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/Competitor_Analysis_Fig1_2_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-                <div>
-                    <p>
-                        <b>Fig.1 — Positive</b>
-                        Highlighting the active lesson and blurring out the inactive ones.
-                        <br>
-                        <b>Fig.2 — Negative</b>
-                        Stereotypically assigning iconic elements of a country/its people to the language, which is okay
-                        but
-                        some countries have different languages and dialects, so it can be tricky.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/Competitor_Analysis_Fig3_4_1x.jpg"
-                            media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/Competitor_Analysis_Fig3_4_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-                <div>
-                    <p>
-                        <b>Fig.3 — Positive</b>
-                        Signing up was pretty seamless, however you are required to submit your email address/other
-                        details
-                        before you can access the app.
-                        <br>
-                        <b>Fig.4 — Negative</b>
-                        The prompt that drops down from the top also blocks some features on the page.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <a
-                    href="https://coach-courses-us.s3.amazonaws.com/exercises/729/54408/fea615b895a89cf1bc4dbd048f066f88/Subomi_Archibong_Intro_to_UX_Vocabulary_App_Competitive_Analysis_V1.pdf">Competitor
-                    Analysis &#40 full report &#41</a>
-            </div>
-        </section>
-        <section>
-            <h2>User Interviews</h2>
-            <div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/User_Interviews_1x.jpg" media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/User_Interviews_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-                <div>
-                    <p>
-                        The user interviews where setup in such a way that the user shares their experience with an app
-                        they are already familiar with (does have to be related to learning or vocabulary), then the
-                        next step will be co-creating the ideal app with the interviewee which adopts some features from
-                        their favourite apps that can be reproduced on the vocabulary app.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <a
-                    href="https://coach-courses-us.s3.amazonaws.com/exercises/730/54408/2c1873455cd83270c5c0c3b858faad7d/Subomi_Archibong_Intro_to_UX_Vocabulary_App_User_Interviews.pdf">User
-                    Interviews &#40 full report &#41</a>
-            </div>
-        </section>
-        <section>
-            <h2>User Persona</h2>
-            <div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/User_Persona_1x.jpg" media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/User_Persona_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-                <div>
-                    <p>
-                        Based on my findings from the user research I was able to refine Wanjiku’s needs and goals as
-                        well as come up with job stories and user stories to help craft what tasks are most important to
-                        her and brings her further to achieving her goals.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <a
-                    href="https://coach-courses-us.s3.amazonaws.com/exercises/731/54408/44288ab2c81b054a0daf163f80cd9e58/Subomi_Archibong_Intro_to_UX_Vocabulary_App_User_Personas_V1.pdf">User
-                    Persona &#40 full report &#41</a>
-            </div>
-        </section>
-        <section>
-            <h2>Information Architecture</h2>
-            <p>
-                <b>Task:</b> Review Vocabulary
-                <br>
-                <b>Entry point:</b> Notification
-            </p>
-            <div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/Task_Flow_1x.jpg" media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/Task_Flow_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-                <div>
-                    <p>
-                        Through Wajiku’s user stories I was able to come up with two tasks that would bring her closer
-                        to achieving her goals while using the SPLAM app. The first, adding a new word to the vocabulary
-                        everyday with the help of a notification reminder. The second, to review words that she has
-                        added to the vocabulary to refresh her memory from time to time.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <a
-                    href="https://getstream-file-uploads.s3.amazonaws.com/b11c23db04f92ae39ef6ff482bf16b676351ccb0/Subomi_Archibong_Intro_to_UX_Vocabulary_App_Information_Architecture_V1.pdf">Information
-                    Architecture &#40 full report &#41</a>
-            </div>
-        </section>
-        <section>
-            <h2>Wireframes / Prototype</h2>
-            <div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/Wireframes_1x.jpg" media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/Wireframes_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-                <div>
-                    <p>
-                        Now that the task flows had been created and we have a sound idea of the needs and goals that
-                        Wanjiku would like to achieve with the SPLAM, it is time to jump right into the ‘drawing board’
-                        and create some sketches. Starting with the lo-fi sketches and then on to the mid-fidelity and
-                        finally the hi-fi – with testings at each stage to refine the designs.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <a href="https://marvelapp.com/prototype/18gaa3d9">Test Prototype</a>
-            </div>
-        </section>
-        <section>
-            <h2>
-                Usability Testing
-            </h2>
-            <div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/Usability_1x.jpg" media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/Usability_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-                <div>
-                    <picture>
-                        <source srcset="img/Project_Details/1x/Usability_Wireframes_1x.jpg" media="(max-width:767px)">
-                        <img src="img/Project_Details/2x/Usability_Wireframes_2x.jpg" alt="SPLAM Cover image">
-                    </picture>
-                </div>
-            </div>
-            <div>
-                <p>
-                    In a bid to create a product that is useful to Wanjiku, it was important to test the product with
-                    the pool of participants that were interviewed earlier who helped to create the Proto-persona in the
-                    first place. Additionally, new participants were also involved to get fresh results from a set of
-                    “new eyes” on the product.
-                </p>
-            </div>
-            <div>
-                <a
-                    href="https://coach-courses-us.s3.amazonaws.com/exercises/734/54408/834229955ef2b35b52ed0678db40fb18/Subomi_Archibong_Intro_to_UX_Vocabulary_App_Usability_Testing.pdf">Download
-                    Full Test Report</a>
-            </div>
-        </section>
-        <section>
-            <h2>Conclusion</h2>
-            <div>
+            <div class="container">
+                <h2>SPLAM - Speak like a local</h2>
                 <picture>
-                    <source srcset="img/Project_Details/1x/Final_Mockup_1x.jpg" media="(max-width:767px)">
-                    <img src="img/Project_Details/2x/Final_Mockup_2x.jpg" alt="SPLAM Cover image">
+                    <source srcset="img/Project_Overview/1x/Project_SPLAM_1x.jpg" media="(max-width:767px)">
+                    <img src="img/Project_Overview/2x/Project_SPLAM_2x.jpg" alt="SPLAM Cover image">
                 </picture>
-            </div>
-            <div>
+                <h3>Why?</h3>
                 <p>
-                    Putting together the SPLAM app came from a personal need at the time considering I just moved to a
-                    new city where a different language was spoken. Every step of the way I always made an attempt to
-                    put myself in the shoes of the user, Wanjiku in this case , and try to answer the question: “What
-                    would make her life a tad bit easier?”. Each time I answered that question on behalf of the user, I
-                    came one step closer to delivering a product that would be useful in resolving the users needs and
+                    SPLAM steps up to address the initial challenge that foreigners, particularly expats, encounter when
+                    relocating to a new country—the language barrier. Recognizing that Polish is regarded as one of the most
+                    challenging languages to learn, SPLAM offers an accelerated approach to help individuals quickly become
+                    proficient in speaking Polish.
+                </p>
+                <h3>What?</h3>
+                <p>
+                    Design a mobile app that helps foreigners/expats to learn Polish language by adding a new word to their
+                    vocabulary everyday.
+                </p>
+                <h3>How? — The Process</h3>
+                <p>
+                    Kicking off the process with competitive analysis will present the opportunity to see what similar
+                    solutions are currently available on the market, what they are doing correctly and how it can be
+                    improved on.
+                </p>
+                <p>
+                    Next up, getting to know the target audience, the user. Setting up user interviews at this stage will
+                    help to understand the need for the product on the market, what gaps are currently existing and how
+                    SPLAM can fill up those gaps.
+                </p>
+                <p>
+                    At this point, a <b>proto-persona</b> will emerge from the responses of the users from the interviews.
+                    This persona will encapsulate all the needs, goals and motivation of the ideal target audience.
+                </p>
+                <p>
+                    Let’s call the proto-persona, <b>Wanjiku</b>.
+                </p>
+                <p>
+                    Based on her goals and motivations, the <b>information architecture</b> comes into play to structure the
+                    flow in which Wanjiku will complete several tasks using SPLAM and eventually arrive at her desired
                     goals.
                 </p>
+                <p>
+                    With the information architecture established, low fidelity <b>wireframes</b> will be fleshed out to
+                    create the first set of <b>prototypes</b> for users to <b>test</b>, starting with Wanjiku.
+                </p>
             </div>
-            <div>
-                <a
-                    href="https://www.figma.com/proto/N9ooEHoWDxqFi4I9dGwjLm/SPLAM-Case-Study?type=design&node-id=35-371&t=dkewk11xWFh9iVA1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=35%3A371&mode=design">Test
-                    Mi-Fi Prototype</a>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>Competitor Analysis</h2>
+                <div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/Competitor_Analysis_Fig1_2_1x.jpg"
+                                media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/Competitor_Analysis_Fig1_2_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                    <div>
+                        <p>
+                            <b>Fig.1 — Positive</b>
+                            Highlighting the active lesson and blurring out the inactive ones.
+                            <br>
+                            <b>Fig.2 — Negative</b>
+                            Stereotypically assigning iconic elements of a country/its people to the language, which is okay
+                            but
+                            some countries have different languages and dialects, so it can be tricky.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/Competitor_Analysis_Fig3_4_1x.jpg"
+                                media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/Competitor_Analysis_Fig3_4_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                    <div>
+                        <p>
+                            <b>Fig.3 — Positive</b>
+                            Signing up was pretty seamless, however you are required to submit your email address/other
+                            details
+                            before you can access the app.
+                            <br>
+                            <b>Fig.4 — Negative</b>
+                            The prompt that drops down from the top also blocks some features on the page.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a
+                        href="https://coach-courses-us.s3.amazonaws.com/exercises/729/54408/fea615b895a89cf1bc4dbd048f066f88/Subomi_Archibong_Intro_to_UX_Vocabulary_App_Competitive_Analysis_V1.pdf" class="button">Competitor
+                        Analysis &#40 full report &#41</a>
+                </div>
             </div>
         </section>
         <section>
-            <h3>
-                Next Case Study
-            </h3>
-            <a href="/sitipay.html">Sitipay</a>
+            <div class="container">
+                <h2>User Interviews</h2>
+                <div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/User_Interviews_1x.jpg" media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/User_Interviews_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                    <div>
+                        <p>
+                            The user interviews where setup in such a way that the user shares their experience with an app
+                            they are already familiar with (does have to be related to learning or vocabulary), then the
+                            next step will be co-creating the ideal app with the interviewee which adopts some features from
+                            their favourite apps that can be reproduced on the vocabulary app.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a
+                        href="https://coach-courses-us.s3.amazonaws.com/exercises/730/54408/2c1873455cd83270c5c0c3b858faad7d/Subomi_Archibong_Intro_to_UX_Vocabulary_App_User_Interviews.pdf" class="button">User
+                        Interviews &#40 full report &#41</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>User Persona</h2>
+                <div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/User_Persona_1x.jpg" media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/User_Persona_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                    <div>
+                        <p>
+                            Based on my findings from the user research I was able to refine Wanjiku’s needs and goals as
+                            well as come up with job stories and user stories to help craft what tasks are most important to
+                            her and brings her further to achieving her goals.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a
+                        href="https://coach-courses-us.s3.amazonaws.com/exercises/731/54408/44288ab2c81b054a0daf163f80cd9e58/Subomi_Archibong_Intro_to_UX_Vocabulary_App_User_Personas_V1.pdf" class="button">User
+                        Persona &#40 full report &#41</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Information Architecture</h2>
+                <p>
+                    <b>Task:</b> Review Vocabulary
+                    <br>
+                    <b>Entry point:</b> Notification
+                </p>
+                <div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/Task_Flow_1x.jpg" media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/Task_Flow_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                    <div>
+                        <p>
+                            Through Wajiku’s user stories I was able to come up with two tasks that would bring her closer
+                            to achieving her goals while using the SPLAM app. The first, adding a new word to the vocabulary
+                            everyday with the help of a notification reminder. The second, to review words that she has
+                            added to the vocabulary to refresh her memory from time to time.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a
+                        href="https://getstream-file-uploads.s3.amazonaws.com/b11c23db04f92ae39ef6ff482bf16b676351ccb0/Subomi_Archibong_Intro_to_UX_Vocabulary_App_Information_Architecture_V1.pdf" class="button">Information
+                        Architecture &#40 full report &#41</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Wireframes / Prototype</h2>
+                <div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/Wireframes_1x.jpg" media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/Wireframes_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                    <div>
+                        <p>
+                            Now that the task flows had been created and we have a sound idea of the needs and goals that
+                            Wanjiku would like to achieve with the SPLAM, it is time to jump right into the ‘drawing board’
+                            and create some sketches. Starting with the lo-fi sketches and then on to the mid-fidelity and
+                            finally the hi-fi – with testings at each stage to refine the designs.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://marvelapp.com/prototype/18gaa3d9" class="button">Test Prototype</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>
+                    Usability Testing
+                </h2>
+                <div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/Usability_1x.jpg" media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/Usability_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                    <div>
+                        <picture>
+                            <source srcset="img/Project_Details/1x/Usability_Wireframes_1x.jpg" media="(max-width:767px)">
+                            <img src="img/Project_Details/2x/Usability_Wireframes_2x.jpg" alt="SPLAM Cover image">
+                        </picture>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        In a bid to create a product that is useful to Wanjiku, it was important to test the product with
+                        the pool of participants that were interviewed earlier who helped to create the Proto-persona in the
+                        first place. Additionally, new participants were also involved to get fresh results from a set of
+                        “new eyes” on the product.
+                    </p>
+                </div>
+                <div>
+                    <a
+                        href="https://coach-courses-us.s3.amazonaws.com/exercises/734/54408/834229955ef2b35b52ed0678db40fb18/Subomi_Archibong_Intro_to_UX_Vocabulary_App_Usability_Testing.pdf" class="button" >Download
+                        Full Test Report</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Conclusion</h2>
+                <div>
+                    <picture>
+                        <source srcset="img/Project_Details/1x/Final_Mockup_1x.jpg" media="(max-width:767px)">
+                        <img src="img/Project_Details/2x/Final_Mockup_2x.jpg" alt="SPLAM Cover image">
+                    </picture>
+                </div>
+                <div>
+                    <p>
+                        Putting together the SPLAM app came from a personal need at the time considering I just moved to a
+                        new city where a different language was spoken. Every step of the way I always made an attempt to
+                        put myself in the shoes of the user, Wanjiku in this case, and try to answer the question: “What
+                        would make her life a tad bit easier?”. Each time I answered that question on behalf of the user, I
+                        came one step closer to delivering a product that would be useful in resolving the users needs and
+                        goals.
+                    </p>
+                </div>
+                <div>
+                    <a
+              href="https://www.figma.com/proto/N9ooEHoWDxqFi4I9dGwjLm/SPLAM-Case-Study?type=design&node-id=35-371&t=dkewk11xWFh9iVA1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=35%3A371&mode=design"
+              target="_blank"
+              class="button"
+              >Test
+              Mi-Fi Prototype</a
+            >
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h3>
+                    Next Case Study
+                </h3>
+                <a href="/sitipay.html">Sitipay</a>
+            </div>
         </section>
 
     </main>
 
     <!-- Footer -->
     <footer>
-        <div>
+        <section id="contact">
+          <div class="container">
             <h2>Get in Touch</h2>
-            <p>Together we can create your next big idea!
-                Phone: <a href="tel:+48123456789">123 456 789</a>
-                Prefer sending an email?
-            </p>
+            <p>Together we can create your next big idea!</p>
             <div>
-                <a href="mailto:company@business.com">Email Me</a>
+              <a href="mailto:company@business.com" class="button contact"
+                >Email Me</a
+              >
             </div>
-
-            <div>
-                <!--Social Media Links-->
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/thesubomi/" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" fill="currentColor"
-                                class="bi bi-linkedin" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.behance.net/thesubomi" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" fill="currentColor"
-                                class="bi bi-behance" viewBox="0 0 16 16">
-                                <path
-                                    d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391.286.176.497.426.641.747.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922.281.426.461.957.461 1.563 0 .496-.105.922-.285 1.278a2.317 2.317 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.329 5.329 0 0 1-1.278.176L0 12.803V3h4.654zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a.981.981 0 0 0-.32-.355 1.84 1.84 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305v.005zm6.858-.035c.286.285.711.426 1.278.426.39 0 .746-.106 1.032-.286.285-.215.46-.426.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.135 4.135 0 0 1-1.527-.285 2.827 2.827 0 0 1-1.137-.782 2.851 2.851 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4.018 4.018 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396zm2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176-.215.105-.356.25-.496.39a.957.957 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978v-.957z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.x.com/hellosubomi" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="60" fill="currentColor"
-                                class="bi bi-twitter-x" viewBox="0 0 16 16">
-                                <path
-                                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="social-links">
+              <!--Social Media Links-->
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/thesubomi/"
+                    target="_blank"
+                  >
+                    <svg
+                      class="social-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="80"
+                      height="60"
+                      fill="currentColor"
+                      class="bi bi-linkedin"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.behance.net/thesubomi" target="_blank">
+                    <svg
+                      class="social-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="80"
+                      height="60"
+                      fill="currentColor"
+                      class="bi bi-behance"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391.286.176.497.426.641.747.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922.281.426.461.957.461 1.563 0 .496-.105.922-.285 1.278a2.317 2.317 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.329 5.329 0 0 1-1.278.176L0 12.803V3h4.654zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a.981.981 0 0 0-.32-.355 1.84 1.84 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305v.005zm6.858-.035c.286.285.711.426 1.278.426.39 0 .746-.106 1.032-.286.285-.215.46-.426.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.135 4.135 0 0 1-1.527-.285 2.827 2.827 0 0 1-1.137-.782 2.851 2.851 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4.018 4.018 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396zm2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176-.215.105-.356.25-.496.39a.957.957 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978v-.957z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.x.com/hellosubomi" target="_blank">
+                    <svg
+                      class="social-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="80"
+                      height="60"
+                      fill="currentColor"
+                      class="bi bi-twitter-x"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <p>&copy; Copyright TheSubomi 2023 </p>
-        </div>
-    </footer>
+            <p>&copy; Copyright. Subomi 2023</p>
+          </div>
+        </section>
+      </footer>
 </body>
 
 </html>

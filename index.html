@@ -28,15 +28,15 @@
     <!-- Header Section -->
     <header>
       <!-- Nav -->
-      <div>
+      <div class="container">
         <a href="/index.html"
-          ><img src="img/subomi_logo.svg" alt="subomi's logomark"
+          ><img class="logo" src="img/subomi_logo.svg" alt="subomi's logomark"
         /></a>
         <nav>
           <ul>
             <li><a href="./work.html">Work</a></li>
             <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -44,65 +44,70 @@
 
     <!-- Hero section -->
     <main>
-      <section id="hero-section">
-        <div>
-          <h1>Hey! I'm Olasubomi</h1>
+      <section id="hero">
+        <div class="container">
+          <h1>
+            Hey! <br />
+            I'm Olasubomi
+          </h1>
           <p>
             A creative designer dedicated to improving the human experience
             through a user-centric approach to design
           </p>
         </div>
       </section>
-      <!-- Project Overview -->
-      <section id="projects-section">
-        <h2>Projects</h2>
-        <div>
-          <!-- Row that holds 2 columns — picture and text+button -->
-          <div>
-            <picture>
-              <source
-                srcset="img/Project_Overview/1x/Project_SPLAM_1x.jpg"
-                media="(max-width:767px)"
-              />
-              <img
-                src="img/Project_Overview/2x/Project_SPLAM_2x.jpg"
-                alt="SPLAM Cover image"
-              />
-            </picture>
+      <!-- Work section -->
+      <section id="work">
+        <div class="container">
+          <h2>Work</h2>
+          <div class="row">
+            <!-- Row that holds 2 columns — picture and text+button -->
+            <div>
+              <picture>
+                <source
+                  srcset="img/Project_Overview/1x/Project_SPLAM_1x.jpg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/Project_Overview/2x/Project_SPLAM_2x.jpg"
+                  alt="SPLAM Cover image"
+                />
+              </picture>
+            </div>
+            <div>
+              <h3>SPLAM</h3>
+              <p>
+                SPLAM steps up to address the initial challenge that foreigners,
+                particularly expats, encounter when relocating to a new
+                country—the language barrier.
+              </p>
+              <a class="button" href="/splam.html">View Project</a>
+            </div>
           </div>
-          <div>
-            <h3>SPLAM</h3>
-            <p>
-              SPLAM steps up to address the initial challenge that foreigners,
-              particularly expats, encounter when relocating to a new
-              country—the language barrier.
-            </p>
-            <a class="button" href="/splam.html">View Project</a>
-          </div>
-        </div>
-        <div>
-          <!-- Row that holds 2 columns — picture and text+button -->
-          <div>
-            <picture>
-              <source
-                srcset="img/Project_Overview/1x/Project_Sitipay_1x.jpg"
-                media="(max-width:767px)"
-              />
-              <img
-                src="img/Project_Overview/2x/Project_Sitipay_2x.jpg"
-                alt="Sitipay Cover image"
-              />
-            </picture>
-          </div>
-          <div>
-            <h3>SITIPAY</h3>
-            <p>
-              SITIPAY is more than just your typical finance app. It goes above
-              and beyond the basic features found in everyday financial apps by
-              offering industry-certified training to students on investing and
-              saving.
-            </p>
-            <a class="button" href="/sitipay.html">View Project</a>
+          <div class="row">
+            <!-- Row that holds 2 columns — picture and text+button -->
+            <div>
+              <picture>
+                <source
+                  srcset="img/Project_Overview/1x/Project_Sitipay_1x.jpg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/Project_Overview/2x/Project_Sitipay_2x.jpg"
+                  alt="Sitipay Cover image"
+                />
+              </picture>
+            </div>
+            <div>
+              <h3>SITIPAY</h3>
+              <p>
+                SITIPAY is more than just your typical finance app. It goes
+                above and beyond the basic features found in everyday financial
+                apps by offering industry-certified training to students on
+                investing and saving.
+              </p>
+              <a class="button" href="/sitipay.html">View Project</a>
+            </div>
           </div>
         </div>
       </section>
@@ -110,20 +115,16 @@
 
     <!-- Footer -->
     <footer>
-      <section id="contact-section">
-        <div>
+      <section id="contact">
+        <div class="container">
           <h2>Get in Touch</h2>
-          <p>
-            Together we can create your next big idea! Phone:
-            <a href="tel:+48123456789">123 456 789</a>
-            Prefer sending an email?
-          </p>
+          <p>Together we can create your next big idea!</p>
           <div>
             <a href="mailto:company@business.com" class="button contact"
               >Email Me</a
             >
           </div>
-          <div>
+          <div class="social-links">
             <!--Social Media Links-->
             <ul>
               <li>
@@ -132,6 +133,7 @@
                   target="_blank"
                 >
                   <svg
+                    class="social-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="80"
                     height="60"
@@ -148,6 +150,7 @@
               <li>
                 <a href="https://www.behance.net/thesubomi" target="_blank">
                   <svg
+                    class="social-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="80"
                     height="60"
@@ -164,6 +167,7 @@
               <li>
                 <a href="https://www.x.com/hellosubomi" target="_blank">
                   <svg
+                    class="social-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="80"
                     height="60"
@@ -179,7 +183,7 @@
               </li>
             </ul>
           </div>
-          <p>&copy; Copyright TheSubomi 2023</p>
+          <p>&copy; Copyright. Subomi 2023</p>
         </div>
       </section>
     </footer>
